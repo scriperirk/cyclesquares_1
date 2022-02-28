@@ -1,7 +1,6 @@
 package ru.netology.cyclesquares;
 
 import org.junit.jupiter.api.Test;
-import ru.netology.cycle.MultiService;
 
 import static org.junit.jupiter.api.Assertions.*;
 
