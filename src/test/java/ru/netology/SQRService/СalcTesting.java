@@ -1,11 +1,10 @@
-package ru.netology.cyclesquares;
+package ru.netology.SQRService;
 
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class СalcTest {
-
+class СalcTesting {
     @Test
     void shoulSqrtCalc() {
         Сalc service = new Сalc();
