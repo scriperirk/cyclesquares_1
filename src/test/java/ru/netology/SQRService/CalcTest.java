@@ -4,14 +4,17 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class СalcTesting {
-    @Test
-    void shoulSqrtCalc() {
-        Сalc service = new Сalc();
-        int num = 9;
-        int expected = 3;
+class CalcTest {
 
-        int actual = service.SqrtCalc(num);
+    @Test
+    void sqrtcalc() {
+        Calc service = new Calc();
+        int num = 99;
+        int expected = 3;
+        int max = 200;
+        int min = 300;
+
+        int actual = service.sqrtcalc(num, max, min);
 
         assertEquals(expected, actual);
 
